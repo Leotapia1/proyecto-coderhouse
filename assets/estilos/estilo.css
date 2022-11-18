@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    height: 150px;
+    border-bottom: 0.5rem solid #00fca8;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+header img{
+    width: 500px;
+    height: 140px;
+}
+nav {
+    float: right;
+    position: relative;
+    top: 55px;
+    right : 100px;
+}
+nav a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-right: 2px solid #00fca8;
+    padding: 1rem;
+}
+.active{
+    color:#00fca8
+}
+.banner{
+    background-image: url("../img/banner.png");
+    height: 400px;
+    text-align: center;
+    opacity: 0.75;
+    color: white
+
+}
+.textobanner{
+    padding: 8rem;
+}
+.section1{
+    text-align: center;
+    padding: 1rem;
+}
+.section1 h3{
+    padding: 0.5rem;
+}
+.section1 a{
+    text-decoration: none;
+}
+.textoverde{
+    color: #00fca8;
+}
+.textocontacto{
+    width: 300px;
+    background-color: #00fca8;
+    color: white;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.section2{
+    padding: 2rem;
+    height: 80vh;
+}
+.section2 img{
+    width: 300px;
+}
+.instalaciones{
+   width: 300px;
+   position: relative;
+   left: 100px;
+   text-align: center;
+}
+.reparaciones{
+    width: 300px;
+    position: relative;
+    left: 500px;
+    bottom: 360px;
+    text-align: center;
+}
+.garantia{
+    width: 300px;
+    position: relative;
+    left: 900px;
+    bottom: 720px;
+    text-align: center;
+}
+.section3{
+    background-image: linear-gradient(to left,rgb(2, 100, 31), #00fca8);
+    padding: 3rem;
+    color: white;
+}
+.section3 h3, p{
+    padding: 0.5rem;
+}
+.textosection3{
+    font-size: 35px;
+}
+footer{
+    background-color: black;
+    height: 310px;
+    color: white;
+    text-align: center;
+}
+.iconos img{
+    width: 80px;
+    padding: 1rem;
+}
+.whatsappfixed{
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
