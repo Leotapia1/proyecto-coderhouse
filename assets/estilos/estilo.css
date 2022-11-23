@@ -12,16 +12,6 @@ header{
     top: 0px;
     z-index: 10;
 }
-header img{
-    width: 500px;
-    height: 140px;
-}
-nav {
-    float: right;
-    position: relative;
-    top: 55px;
-    right : 100px;
-}
 nav a{
     color: white;
     font-size: 1.2rem;
@@ -30,7 +20,7 @@ nav a{
     padding: 1rem;
 }
 .active{
-    color:#00fca8
+    color:#00fca8 !important
 }
 .banner{
     background-image: url("../img/banner.png");
@@ -63,32 +53,43 @@ nav a{
     margin: 0 auto;
     border-radius: 1rem;
 }
+.textocontacto:hover {
+    background-color: aquamarine;
+}
 .section2{
     padding: 2rem;
-    height: 80vh;
 }
 .section2 img{
     width: 300px;
+    transition: 3s;
 }
 .instalaciones{
    width: 300px;
-   position: relative;
-   left: 100px;
    text-align: center;
 }
+.instalaciones:hover img{
+    transform: scale(0.9);
+    transition: 3s;
+    filter: saturate(180%);
+}
+
 .reparaciones{
     width: 300px;
-    position: relative;
-    left: 500px;
-    bottom: 360px;
     text-align: center;
+}
+.reparaciones:hover img{
+    transform: scale(0.9);
+    transition: 3s;
+    filter: saturate(180%);
 }
 .garantia{
     width: 300px;
-    position: relative;
-    left: 900px;
-    bottom: 720px;
     text-align: center;
+}
+.garantia:hover img{
+    transform: scale(0.9);
+    transition: 3s;
+    filter: saturate(180%);
 }
 .section3{
     background-image: linear-gradient(to left,rgb(2, 100, 31), #00fca8);
@@ -101,9 +102,12 @@ nav a{
 .textosection3{
     font-size: 35px;
 }
+.section3 img{
+    width: 500px;
+}
 footer{
     background-color: black;
-    height: 310px;
+    height: 400px;
     color: white;
     text-align: center;
 }
