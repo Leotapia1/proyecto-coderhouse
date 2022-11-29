@@ -39,15 +39,65 @@
             </div>
           </nav>
     </header>
-    <div class="banner">
-        <div class="textobanner">
-        <h2>Resolvemos Cualquier Conflicto</h2>
-        <h4>Todo inconveniente o problema con su computadora ya sea pc o notebook le brindamos solucion.</h4>
-        <h4>Ofrecemos garantia por todas nuestras reparaciones. </h4>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active"> 
+            <img src="./assets/img/banner.png" class="d-block w-100 cover filtro" alt="banner_1">
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h2>Resolvemos Cualquier Conflicto</h2>
+                <p >Todo inconveniente o problema con su computadora ya sea pc o notebook le brindamos solucion.</p>
+                <p>Ofrecemos garantia por todas nuestras reparaciones.</p>
+                <p><a class="btn btn-lg botoncolor text-white" href="#">Leer Más</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+          
+            <img src="./assets/img/banner2.png" class="d-block w-100 cover filtro" alt="banner_2">
+    
+            <div class="container">
+              <div class="carousel-caption">
+                <h2>Resolvemos Cualquier Conflicto</h2>
+                <p >Todo inconveniente o problema con su computadora ya sea pc o notebook le brindamos solucion.</p>
+                <p>Ofrecemos garantia por todas nuestras reparaciones.</p>
+                <p><a class="btn btn-lg botoncolor text-white" href="#">Leer Más</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/banner3.png" class="d-block w-100 cover filtro" alt="banner_3">
+    
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h2>Resolvemos Cualquier Conflicto</h2>
+                <p >Todo inconveniente o problema con su computadora ya sea pc o notebook le brindamos solucion.</p>
+                <p>Ofrecemos garantia por todas nuestras reparaciones.</p>
+                <p><a class="btn btn-lg botoncolor text-white" href="#">Leer Más</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <main>
         <section>
+            <div class="container p-5 d-flex flex-wrap">
+                <div class="row">
+                    <div class="col-md-6">
             <h2>Servicios</h2>
             <ul>
                 <li>Instalación y configuración de componentes y periféricos.</li>
@@ -64,21 +114,45 @@
                 <li>Backups de datos al medio que desee.</li>
                 <li>Reparacion de pc y notebook. Instalación de programas y todo el software que usted quiera</li>
             </ul>
+                    </div>
+            <div class="col-md-6">
+                <video autoplay muted loop class="video">
+                  <source src="./assets/img/¡L.T TECNOLOGIA!.mp4" type="video/mp4">
+                 
+                </video>
+              </div>
+              </div>
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6 imgvigilancia">
             <img src="./assets/img/camara.png" alt="camara seguridad">
+            </div>
+            <div class="col-md-6 d-flex flex-wrap">
             <h2>Instalación y configuración de camaras de seguridad ip y de videovigilancia.</h2>
             <p>Instalación de cámaras para monitoreo, desde su pc o vía web. Trabajamos con las mejores marcas, brindandole la seguridad que busca.</p>
             <p>Podra controlar en vivo y por grabacion todo lo acontecido en su hogar, empresa, oficina etc.
                 Ademas podra acceder desde un dispositivo movil a traves de internet.
                 Presupuestos sin cargo. Ofrecemos garantia por los materiales y instalacion.</p>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
     <footer>
-        <div class="iconos">
+        <div class="container">
+        <div class="row iconos">
+            <div class="col d-flex justify-content-end gmail">
         <img src="./assets/img/gmail_new_logo_icon_159149.png" alt="logogmail">
+            </div>
+            <div class="col instagram">
         <img src="./assets/img/Instagram_icon-icons.com_66804.png" alt="logoinstagram">
+            </div>
+            <div class="col d-flex justify-content-start youtube">
         <img src="./assets/img/Youtube_icon-icons.com_66802.png" alt="logoyoutube">
         </div>
-        <div>
+        </div>
+        <div class="llamada">
             <img src="./assets/img/icons8-volumen-del-timbre-48.png" alt="llamada">
             <p>Atencion Inmediata</p>
             <p>3874594</p>
@@ -89,6 +163,7 @@
          <p>Desarrollado por Leonel Tapia</p>
         </div>
         <img class="whatsappfixed" src="./assets/img/whatsapp.png" alt="logowp">
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
