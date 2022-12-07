@@ -1,0 +1,168 @@
+@import "variables";
+@import "reset";
+@import "header";
+@import "main";
+@import "footer";
+
+
+
+
+.section1index{
+    text-align: center;
+    padding: 1rem;
+}
+.section1index h3{
+    padding: 0.5rem;
+}
+.section1index a{
+    text-decoration: none;
+}
+.textoverde{
+    color: #00fca8;
+}
+.textocontacto{
+    width: 200px;
+    background-color: #00fca8;
+    color: white;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.textocontacto:hover {
+    background-color: aquamarine;
+}
+.section2index{
+    padding: 2rem;
+}
+.section2index img{
+    width: 300px;
+    transition: 3s;
+}
+.instalaciones{
+   width: 300px;
+   text-align: center;
+}
+.instalaciones:hover img{
+    transform: scale(0.9);
+    transition: 3s;
+    filter: saturate(180%);
+}
+
+.reparaciones{
+    width: 300px;
+    text-align: center;
+}
+.reparaciones:hover img{
+    transform: scale(0.9);
+    transition: 3s;
+    filter: saturate(180%);
+}
+.garantia{
+    width: 300px;
+    text-align: center;
+}
+.garantia:hover img{
+    transform: scale(0.9);
+    transition: 3s;
+    filter: saturate(180%);
+}
+.section3index{
+    background-image: linear-gradient(to left,rgb(2, 100, 31), #00fca8);
+    padding: 3rem;
+    color: white;
+}
+.section3index h3, p{
+    padding: 0.5rem;
+}
+.textosection3{
+    font-size: 35px;
+}
+.section3index img{
+    width: 500px;
+}
+.imgvigilancia img{
+    width: 500px;
+}
+.sectionreparacion img{
+    width: 500px;
+}
+.sectiontecnico img{
+    width: 500px;
+}
+
+
+
+
+.consulta{
+    background-image: linear-gradient(to left,rgb(2, 100, 31), #00fca8);
+    padding: 3rem;
+    color: white;
+}
+.textoblack{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.botonenviar input{
+    width: 10rem;
+}
+.video2{
+    width:400px;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .section3index img {
+    width: 300px;
+    }
+    .instalaciones img{
+        width: 500px;
+    }
+    .reparaciones img{
+        width: 500px;
+    }
+    .garantia img{
+        width: 500px;
+    }
+    .video{
+        width: 300px;
+    }
+    .imgvigilancia img{
+        width: 400px;
+    }
+    .sectionreparacion img{
+        width: 300px;
+    }
+    .sectiontecnico img{
+        width: 300px;
+    }
+    }
+
+    @media (max-width: 425px) {
+        .section3index img {
+        width: 300px;
+        }
+        .instalaciones img{
+            width: 300px;
+        }
+        .reparaciones img{
+            width: 300px;
+        }
+        .garantia img{
+            width: 300px;
+        }
+        .imgvigilancia img{
+            width: 300px;
+        }
+        .sectionreparacion img{
+            width: 300px;
+        }
+        .sectiontecnico img{
+            width: 300px;
+        }
+        .sectioncontacto{
+            width: 350px;
+        }
+        .video2{
+            width: 300px;
+        }
+        }
+ 

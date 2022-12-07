@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+header {
+  background-color: black;
+  height: 150px;
+  border-bottom: 0.5rem solid #00fca8;
+  position: sticky;
+  top: 0px;
+  z-index: 10; }
+  header nav a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-right: 2px solid #00fca8;
+    padding: 1rem; }
+  header nav .active {
+    color: #00fca8 !important; }
+
+.carousel .carousel-item > img {
+  height: 32rem; }
+
+.carousel .botoncolor {
+  background-color: #00fca8 !important; }
+
+.carousel .filtro {
+  filter: brightness(40%); }
+
+footer {
+  background-color: black;
+  height: 420px;
+  color: white;
+  text-align: center; }
+
+.iconos img {
+  width: 80px;
+  padding: 1rem; }
+
+.gmail:hover img {
+  transform: scale(1.4);
+  transition: 1s; }
+
+.instagram:hover img {
+  transform: scale(1.4);
+  transition: 1s; }
+
+.youtube:hover img {
+  transform: scale(1.4);
+  transition: 1s; }
+
+.llamada:hover img {
+  transform: scale(1.4);
+  transition: 1s; }
+
+.whatsappfixed {
+  width: 60px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px; }
+
+.whatsappfixed:hover {
+  transform: scale(1.2);
+  transition: 1s; }
+
+.section1index {
+  text-align: center;
+  padding: 1rem; }
+
+.section1index h3 {
+  padding: 0.5rem; }
+
+.section1index a {
+  text-decoration: none; }
+
+.textoverde {
+  color: #00fca8; }
+
+.textocontacto {
+  width: 200px;
+  background-color: #00fca8;
+  color: white;
+  margin: 0 auto;
+  border-radius: 1rem; }
+
+.textocontacto:hover {
+  background-color: aquamarine; }
+
+.section2index {
+  padding: 2rem; }
+
+.section2index img {
+  width: 300px;
+  transition: 3s; }
+
+.instalaciones {
+  width: 300px;
+  text-align: center; }
+
+.instalaciones:hover img {
+  transform: scale(0.9);
+  transition: 3s;
+  filter: saturate(180%); }
+
+.reparaciones {
+  width: 300px;
+  text-align: center; }
+
+.reparaciones:hover img {
+  transform: scale(0.9);
+  transition: 3s;
+  filter: saturate(180%); }
+
+.garantia {
+  width: 300px;
+  text-align: center; }
+
+.garantia:hover img {
+  transform: scale(0.9);
+  transition: 3s;
+  filter: saturate(180%); }
+
+.section3index {
+  background-image: linear-gradient(to left, #02641f, #00fca8);
+  padding: 3rem;
+  color: white; }
+
+.section3index h3, p {
+  padding: 0.5rem; }
+
+.textosection3 {
+  font-size: 35px; }
+
+.section3index img {
+  width: 500px; }
+
+.imgvigilancia img {
+  width: 500px; }
+
+.sectionreparacion img {
+  width: 500px; }
+
+.sectiontecnico img {
+  width: 500px; }
+
+.consulta {
+  background-image: linear-gradient(to left, #02641f, #00fca8);
+  padding: 3rem;
+  color: white; }
+
+.textoblack {
+  color: black;
+  font-weight: bold; }
+
+.botonenviar input {
+  width: 10rem; }
+
+.video2 {
+  width: 400px;
+  height: 300px; }
+
+@media (max-width: 768px) {
+  .section3index img {
+    width: 300px; }
+  .instalaciones img {
+    width: 500px; }
+  .reparaciones img {
+    width: 500px; }
+  .garantia img {
+    width: 500px; }
+  .video {
+    width: 300px; }
+  .imgvigilancia img {
+    width: 400px; }
+  .sectionreparacion img {
+    width: 300px; }
+  .sectiontecnico img {
+    width: 300px; } }
+
+@media (max-width: 425px) {
+  .section3index img {
+    width: 300px; }
+  .instalaciones img {
+    width: 300px; }
+  .reparaciones img {
+    width: 300px; }
+  .garantia img {
+    width: 300px; }
+  .imgvigilancia img {
+    width: 300px; }
+  .sectionreparacion img {
+    width: 300px; }
+  .sectiontecnico img {
+    width: 300px; }
+  .sectioncontacto {
+    width: 350px; }
+  .video2 {
+    width: 300px; } }
