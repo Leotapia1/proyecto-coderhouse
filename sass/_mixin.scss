@@ -1,0 +1,16 @@
+
+@mixin mixin-height{
+    width: map-get($tamaño, 400 );
+    height: map-get($tamaño, 300);
+}
+
+@mixin mixin-transition{
+    transform: scale(0.9);
+    transition: $transition-main;
+    filter: saturate(180%);
+}
+
+@mixin mixin-transition-footer{
+    transform: scale(1.4);
+        transition: $transition-footer;
+}

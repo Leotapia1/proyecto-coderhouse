@@ -1,0 +1,91 @@
+.section1index{
+    text-align: map-get($estilos, centro);
+    padding: 1rem;
+}
+.section1index h3{
+    padding: 0.5rem;
+}
+.section1index a{
+    text-decoration: none;
+}
+.textoverde{
+    color: $color-primario;
+}
+.textocontacto{
+    width: 200px;
+    background-color: $color-primario;
+    color: $color-blanco;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.textocontacto:hover {
+    background-color: aquamarine;
+}
+.section2index{
+    padding: 2rem;
+}
+.section2index img{
+    width: 300px;
+    transition: 3s;
+}
+.instalaciones{
+   width: map-get($tamaño, 300);
+   text-align: map-get($estilos, centro);
+}
+.instalaciones:hover img{
+    @include mixin-transition;
+}
+
+.reparaciones{
+    width: map-get($tamaño, 300);
+    text-align: map-get($estilos, centro);
+}
+.reparaciones:hover img{
+    @include mixin-transition;
+}
+.garantia{
+    width: map-get($tamaño, 300);
+    text-align: map-get($estilos, centro);
+}
+.garantia:hover img{
+    @include mixin-transition;
+}
+.section3index{
+    background-image: linear-gradient(to left,$color-secundario, $color-primario);
+    padding: 3rem;
+    color: $color-blanco;
+}
+.section3index h3, p{
+    padding: 0.5rem;
+}
+.textosection3{
+    font-size: 35px;
+}
+.section3index img{
+    width: map-get($tamaño, 500);
+}
+.imgvigilancia img{
+    width: map-get($tamaño, 500);
+}
+.sectionreparacion img{
+    width: map-get($tamaño, 500);
+}
+.sectiontecnico img{
+    width: map-get($tamaño, 500);
+}
+
+.consulta{
+    background-image: linear-gradient(to left,$color-secundario, $color-primario);
+    padding: 3rem;
+    color: $color-blanco;
+}
+.textoblack{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.botonenviar input{
+    width: 10rem;
+}
+.video2{
+    @include mixin-height;
+}
